@@ -100,7 +100,7 @@ impl Chord {
         m.shift = self.shift;
         m.ctrl = self.ctrl;
         if self.cmd {
-            m = m | Modifiers::COMMAND;
+            m |= Modifiers::COMMAND;
         }
         Some(KeyboardShortcut::new(m, self.egui_key()?))
     }

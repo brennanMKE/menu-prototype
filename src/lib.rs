@@ -10,4 +10,5 @@ pub mod in_window;
 pub mod mac_layout;
 pub mod menu_nav;
 pub mod model;
+pub mod native;
 pub mod shortcut;
