@@ -1,2 +1,3 @@
 /target
+/tools/*/target
 .DS_Store

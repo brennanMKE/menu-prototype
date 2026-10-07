@@ -1,0 +1,8514 @@
+[
+  {
+    "id": "file.new",
+    "label": "New…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+N",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.newFromClipboard",
+    "label": "New from Clipboard",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.open",
+    "label": "Open…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+O",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.openAs",
+    "label": "Open As…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+Shift+O",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.clearRecent",
+    "label": "Clear Recent Files",
+    "path": [
+      "File",
+      "Open Recent"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.close",
+    "label": "Close",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+W",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.closeAll",
+    "label": "Close All",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+W",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.closeOthers",
+    "label": "Close Others",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+P",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.save",
+    "label": "Save",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+S",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.saveAs",
+    "label": "Save As…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Shift+S",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.saveACopy",
+    "label": "Save a Copy…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+S",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.revert",
+    "label": "Revert",
+    "path": [
+      "File"
+    ],
+    "shortcut": "F12",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.quickExportAsPng",
+    "label": "Quick Export as PNG",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.exportAs",
+    "label": "Export As…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": "Cmd+Alt+Shift+W",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.exportPreferences",
+    "label": "Export Preferences…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.saveForWebLegacy",
+    "label": "Save for Web (Legacy)…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": "Cmd+Alt+Shift+S",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.artboardsToFiles",
+    "label": "Artboards to Files…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.artboardsToPdf",
+    "label": "Artboards to PDF…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.layersToFiles",
+    "label": "Layers to Files…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.layerCompsToFiles",
+    "label": "Layer Comps to Files…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.colorLookupTables",
+    "label": "Color Lookup Tables…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.dataSetsAsFiles",
+    "label": "Data Sets as Files…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.pathsToIllustrator",
+    "label": "Paths to Illustrator…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.export.renderVideo",
+    "label": "Render Video…",
+    "path": [
+      "File",
+      "Export"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.generate.imageAssets",
+    "label": "Image Assets",
+    "path": [
+      "File",
+      "Generate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.placeEmbedded",
+    "label": "Place Embedded…",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.placeLinked",
+    "label": "Place Linked…",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.package",
+    "label": "Package…",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.automate.batch",
+    "label": "Batch…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.automate.createDroplet",
+    "label": "Create Droplet…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.automate.cropAndStraightenPhotos",
+    "label": "Crop and Straighten Photos",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.automate.contactSheetII",
+    "label": "Contact Sheet II…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.automate.conditionalModeChange",
+    "label": "Conditional Mode Change…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.automate.fitImage",
+    "label": "Fit Image…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.automate.lensCorrection",
+    "label": "Lens Correction…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.automate.mergeToHdrPro",
+    "label": "Merge to HDR Pro…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.automate.photomerge",
+    "label": "Photomerge…",
+    "path": [
+      "File",
+      "Automate"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.imageProcessor",
+    "label": "Image Processor…",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.deleteAllEmptyLayers",
+    "label": "Delete All Empty Layers",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.flattenAllLayerEffects",
+    "label": "Flatten All Layer Effects",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.flattenAllMasks",
+    "label": "Flatten All Masks",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.scriptEventsManager",
+    "label": "Script Events Manager…",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.loadFilesIntoStack",
+    "label": "Load Files into Stack…",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.statistics",
+    "label": "Statistics…",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.scripts.browse",
+    "label": "Browse…",
+    "path": [
+      "File",
+      "Scripts"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "file.import.variableDataSets",
+    "label": "Variable Data Sets…",
+    "path": [
+      "File",
+      "Import"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.import.videoFramesToLayers",
+    "label": "Video Frames to Layers…",
+    "path": [
+      "File",
+      "Import"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.import.notes",
+    "label": "Notes…",
+    "path": [
+      "File",
+      "Import"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.import.wiaSupport",
+    "label": "WIA Support…",
+    "path": [
+      "File",
+      "Import"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.fileInfo",
+    "label": "File Info…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+Shift+I",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.print",
+    "label": "Print…",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+P",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.printOneCopy",
+    "label": "Print One Copy",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+Shift+P",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "File"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "file.exit",
+    "label": "Exit",
+    "path": [
+      "File"
+    ],
+    "shortcut": "Cmd+Q",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.undo",
+    "label": "Undo",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.redo",
+    "label": "Redo",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.toggleLastState",
+    "label": "Toggle Last State",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Alt+Z",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.fade",
+    "label": "Fade…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Shift+F",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.cut",
+    "label": "Cut",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.copy",
+    "label": "Copy",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.copyMerged",
+    "label": "Copy Merged",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Shift+C",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.paste",
+    "label": "Paste",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.pasteSpecial.pasteInPlace",
+    "label": "Paste in Place",
+    "path": [
+      "Edit",
+      "Paste Special"
+    ],
+    "shortcut": "Cmd+Shift+V",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.pasteSpecial.pasteInto",
+    "label": "Paste Into",
+    "path": [
+      "Edit",
+      "Paste Special"
+    ],
+    "shortcut": "Cmd+Alt+Shift+V",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.pasteSpecial.pasteOutside",
+    "label": "Paste Outside",
+    "path": [
+      "Edit",
+      "Paste Special"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.clear",
+    "label": "Clear",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.search",
+    "label": "Search…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+K",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.checkSpelling",
+    "label": "Check Spelling…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.findAndReplaceText",
+    "label": "Find and Replace Text…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.fill",
+    "label": "Fill…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Shift+F5",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.stroke",
+    "label": "Stroke…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.contentAwareFill",
+    "label": "Content-Aware Fill…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.contentAwareScale",
+    "label": "Content-Aware Scale",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Alt+Shift+C",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.puppetWarp",
+    "label": "Puppet Warp",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.perspectiveWarp",
+    "label": "Perspective Warp",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.freeTransform",
+    "label": "Free Transform",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+T",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.again",
+    "label": "Again",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": "Cmd+Shift+T",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.scale",
+    "label": "Scale",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.rotate",
+    "label": "Rotate",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.skew",
+    "label": "Skew",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.distort",
+    "label": "Distort",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.perspective",
+    "label": "Perspective",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.warp",
+    "label": "Warp",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.splitWarpHorizontally",
+    "label": "Split Warp Horizontally",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.splitWarpVertically",
+    "label": "Split Warp Vertically",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.splitWarpCrosswise",
+    "label": "Split Warp Crosswise",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.removeWarpSplit",
+    "label": "Remove Warp Split",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.rotate180",
+    "label": "Rotate 180°",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.rotate90Cw",
+    "label": "Rotate 90° Clockwise",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.rotate90Ccw",
+    "label": "Rotate 90° Counter Clockwise",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.flipHorizontal",
+    "label": "Flip Horizontal",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.transform.flipVertical",
+    "label": "Flip Vertical",
+    "path": [
+      "Edit",
+      "Transform"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.autoAlignLayers",
+    "label": "Auto-Align Layers…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.autoBlendLayers",
+    "label": "Auto-Blend Layers…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.defineBrushPreset",
+    "label": "Define Brush Preset…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.definePattern",
+    "label": "Define Pattern…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.defineCustomShape",
+    "label": "Define Custom Shape…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.purge.undo",
+    "label": "Undo",
+    "path": [
+      "Edit",
+      "Purge"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.purge.clipboard",
+    "label": "Clipboard",
+    "path": [
+      "Edit",
+      "Purge"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.purge.histories",
+    "label": "Histories",
+    "path": [
+      "Edit",
+      "Purge"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.purge.videoCache",
+    "label": "Video Cache",
+    "path": [
+      "Edit",
+      "Purge"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit",
+      "Purge"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.purge.all",
+    "label": "All",
+    "path": [
+      "Edit",
+      "Purge"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.presets.presetManager",
+    "label": "Preset Manager…",
+    "path": [
+      "Edit",
+      "Presets"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit",
+      "Presets"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.presets.migratePresets",
+    "label": "Migrate Presets",
+    "path": [
+      "Edit",
+      "Presets"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.presets.exportImportPresets",
+    "label": "Export/Import Presets…",
+    "path": [
+      "Edit",
+      "Presets"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.colorSettings",
+    "label": "Color Settings…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Shift+K",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.assignProfile",
+    "label": "Assign Profile…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.convertToProfile",
+    "label": "Convert to Profile…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.keyboardShortcuts",
+    "label": "Keyboard Shortcuts…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Alt+Shift+K",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.menus",
+    "label": "Menus…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Alt+Shift+M",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.toolbar",
+    "label": "Toolbar…",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Edit"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.general",
+    "label": "Settings…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.integrations",
+    "label": "AI Integrations…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.interface",
+    "label": "Interface…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.workspace",
+    "label": "Workspace…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.tools",
+    "label": "Tools…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.historyLog",
+    "label": "History Log…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.fileHandling",
+    "label": "File Handling…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.export",
+    "label": "Export…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.performance",
+    "label": "Performance…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.scratchDisks",
+    "label": "Scratch Disks…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.cursors",
+    "label": "Cursors…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.transparencyAndGamut",
+    "label": "Transparency & Gamut…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.unitsAndRulers",
+    "label": "Units & Rulers…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.guidesGridAndSlices",
+    "label": "Guides, Grid & Slices…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.plugIns",
+    "label": "Plug-ins…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.type",
+    "label": "Type…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.enhancedControls",
+    "label": "Enhanced Controls…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.preferences.rawDefaults",
+    "label": "Raw Defaults…",
+    "path": [
+      "Edit",
+      "Preferences"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "image.mode.bitmap",
+    "label": "Bitmap",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.grayscale",
+    "label": "Grayscale",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.duotone",
+    "label": "Duotone",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.indexedColor",
+    "label": "Indexed Color",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.rgb",
+    "label": "RGB Color",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.cmyk",
+    "label": "CMYK Color",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.lab",
+    "label": "Lab Color",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.multichannel",
+    "label": "Multichannel",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.bits8",
+    "label": "8 Bits/Channel",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.bits16",
+    "label": "16 Bits/Channel",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.bits32",
+    "label": "32 Bits/Channel",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.mode.colorTable",
+    "label": "Color Table…",
+    "path": [
+      "Image",
+      "Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.brightnessContrast",
+    "label": "Brightness/Contrast…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.levels",
+    "label": "Levels…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+L",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.curves",
+    "label": "Curves…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+M",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.exposure",
+    "label": "Exposure…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.vibrance",
+    "label": "Vibrance…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.hueSaturation",
+    "label": "Hue/Saturation…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+U",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.colorBalance",
+    "label": "Color Balance…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+B",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.blackWhite",
+    "label": "Black & White…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+Alt+Shift+B",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.photoFilter",
+    "label": "Photo Filter…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.channelMixer",
+    "label": "Channel Mixer…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.colorLookup",
+    "label": "Color Lookup…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.invert",
+    "label": "Invert",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+I",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.posterize",
+    "label": "Posterize…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.threshold",
+    "label": "Threshold…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.gradientMap",
+    "label": "Gradient Map…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.selectiveColor",
+    "label": "Selective Color…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.shadowsHighlights",
+    "label": "Shadows/Highlights…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.hdrToning",
+    "label": "HDR Toning…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.desaturate",
+    "label": "Desaturate",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": "Cmd+Shift+U",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.matchColor",
+    "label": "Match Color…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.replaceColor",
+    "label": "Replace Color…",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.adjustments.equalize",
+    "label": "Equalize",
+    "path": [
+      "Image",
+      "Adjustments"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.autoTone",
+    "label": "Auto Tone",
+    "path": [
+      "Image"
+    ],
+    "shortcut": "Cmd+Shift+L",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.autoContrast",
+    "label": "Auto Contrast",
+    "path": [
+      "Image"
+    ],
+    "shortcut": "Cmd+Alt+Shift+L",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.autoColor",
+    "label": "Auto Color",
+    "path": [
+      "Image"
+    ],
+    "shortcut": "Cmd+Shift+B",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.imageSize",
+    "label": "Image Size…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": "Cmd+Alt+I",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.canvasSize",
+    "label": "Canvas Size…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": "Cmd+Alt+C",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.imageRotation.180",
+    "label": "180°",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.imageRotation.90cw",
+    "label": "90° Clockwise",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.imageRotation.90ccw",
+    "label": "90° Counter Clockwise",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.rotation.arbitrary",
+    "label": "Arbitrary…",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.imageRotation.flipCanvasHorizontal",
+    "label": "Flip Canvas Horizontal",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.imageRotation.flipCanvasVertical",
+    "label": "Flip Canvas Vertical",
+    "path": [
+      "Image",
+      "Image Rotation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.crop",
+    "label": "Crop",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.trim",
+    "label": "Trim…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.revealAll",
+    "label": "Reveal All",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.duplicate",
+    "label": "Duplicate…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.applyImage",
+    "label": "Apply Image…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.calculations",
+    "label": "Calculations…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.variables.define",
+    "label": "Define…",
+    "path": [
+      "Image",
+      "Variables"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.variables.dataSets",
+    "label": "Data Sets…",
+    "path": [
+      "Image",
+      "Variables"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.applyDataSet",
+    "label": "Apply Data Set…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.trap",
+    "label": "Trap…",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.analysis.setMeasurementScale",
+    "label": "Set Measurement Scale…",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.analysis.selectDataPoints",
+    "label": "Select Data Points…",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.analysis.recordMeasurements",
+    "label": "Record Measurements",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.analysis.rulerTool",
+    "label": "Ruler Tool",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "image.analysis.countTool",
+    "label": "Count Tool",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "image.analysis.placeScaleMarker",
+    "label": "Place Scale Marker…",
+    "path": [
+      "Image",
+      "Analysis"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.layer",
+    "label": "Layer…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": "Cmd+Shift+N",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.layerFromBackground",
+    "label": "Layer from Background…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.group",
+    "label": "Group…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.groupFromLayers",
+    "label": "Group from Layers…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.artboard",
+    "label": "Artboard…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.artboardFromGroup",
+    "label": "Artboard from Group…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.artboardFromLayers",
+    "label": "Artboard from Layers…",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.frameFromLayers",
+    "label": "Frame from Layers",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.layerViaCopy",
+    "label": "Layer via Copy",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": "Cmd+J",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.new.layerViaCut",
+    "label": "Layer via Cut",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": "Cmd+Shift+J",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.duplicate",
+    "label": "Duplicate Layer…",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.delete",
+    "label": "Layer",
+    "path": [
+      "Layer",
+      "Delete"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.delete.hiddenLayers",
+    "label": "Hidden Layers",
+    "path": [
+      "Layer",
+      "Delete"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.quickExportAsPng",
+    "label": "Quick Export as PNG",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": "Cmd+Shift+'",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.exportAs",
+    "label": "Export As…",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": "Cmd+Alt+Shift+'",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.renameLayer",
+    "label": "Rename Layer",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.blendingOptions",
+    "label": "Blending Options…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.bevelEmboss",
+    "label": "Bevel & Emboss…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.stroke",
+    "label": "Stroke…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.innerShadow",
+    "label": "Inner Shadow…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.innerGlow",
+    "label": "Inner Glow…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.satin",
+    "label": "Satin…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.colorOverlay",
+    "label": "Color Overlay…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.gradientOverlay",
+    "label": "Gradient Overlay…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.patternOverlay",
+    "label": "Pattern Overlay…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.outerGlow",
+    "label": "Outer Glow…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.dropShadow",
+    "label": "Drop Shadow…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.copyLayerStyle",
+    "label": "Copy Layer Style",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.pasteLayerStyle",
+    "label": "Paste Layer Style",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.clear",
+    "label": "Clear Layer Style",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.globalLight",
+    "label": "Global Light…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.createLayer",
+    "label": "Create Layer",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.hideAllEffects",
+    "label": "Hide All Effects",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerStyle.scaleEffects",
+    "label": "Scale Effects…",
+    "path": [
+      "Layer",
+      "Layer Style"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartFilter.disableSmartFilters",
+    "label": "Disable Smart Filters",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartFilter.deleteFilterMask",
+    "label": "Delete Filter Mask",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartFilter.disableFilterMask",
+    "label": "Disable Filter Mask",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartFilter.blendingOptions",
+    "label": "Blending Options…",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartFilter.clearSmartFilters",
+    "label": "Clear Smart Filters",
+    "path": [
+      "Layer",
+      "Smart Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newFillLayer.solidColor",
+    "label": "Solid Color…",
+    "path": [
+      "Layer",
+      "New Fill Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newFillLayer.gradient",
+    "label": "Gradient…",
+    "path": [
+      "Layer",
+      "New Fill Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newFillLayer.pattern",
+    "label": "Pattern…",
+    "path": [
+      "Layer",
+      "New Fill Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.brightnessContrast",
+    "label": "Brightness/Contrast…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.levels",
+    "label": "Levels…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.curves",
+    "label": "Curves…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.exposure",
+    "label": "Exposure…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.vibrance",
+    "label": "Vibrance…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.hueSaturation",
+    "label": "Hue/Saturation…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.colorBalance",
+    "label": "Color Balance…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.blackWhite",
+    "label": "Black & White…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.photoFilter",
+    "label": "Photo Filter…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.channelMixer",
+    "label": "Channel Mixer…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.colorLookup",
+    "label": "Color Lookup…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.invert",
+    "label": "Invert…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.posterize",
+    "label": "Posterize…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.threshold",
+    "label": "Threshold…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.gradientMap",
+    "label": "Gradient Map…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newAdjustmentLayer.selectiveColor",
+    "label": "Selective Color…",
+    "path": [
+      "Layer",
+      "New Adjustment Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerContentOptions",
+    "label": "Layer Content Options…",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.revealAll",
+    "label": "Reveal All",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.hideAll",
+    "label": "Hide All",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.revealSelection",
+    "label": "Reveal Selection",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.hideSelection",
+    "label": "Hide Selection",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.fromTransparency",
+    "label": "From Transparency",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.removeBackground",
+    "label": "Remove Background",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.delete",
+    "label": "Delete",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.apply",
+    "label": "Apply",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.enabled",
+    "label": "Enable Layer Mask",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.layerMask.linked",
+    "label": "Link Layer Mask",
+    "path": [
+      "Layer",
+      "Layer Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.maskAllObjects",
+    "label": "Mask All Objects",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.revealAll",
+    "label": "Reveal All",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.hideAll",
+    "label": "Hide All",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.currentPath",
+    "label": "Current Path",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.delete",
+    "label": "Delete",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.enabled",
+    "label": "Enable Vector Mask",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.linked",
+    "label": "Link Vector Mask",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.createClippingMask",
+    "label": "Create Clipping Mask",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": "Cmd+Alt+G",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.convertToSmartObject",
+    "label": "Convert to Smart Object",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.newSmartObjectViaCopy",
+    "label": "New Smart Object via Copy",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.revealInFinder",
+    "label": "Reveal in Finder",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.updateModifiedContent",
+    "label": "Update Modified Content",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.updateAllModifiedContent",
+    "label": "Update All Modified Content",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.editContents",
+    "label": "Edit Contents",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.relinkToFile",
+    "label": "Relink to File…",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.replaceContents",
+    "label": "Replace Contents…",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.exportContents",
+    "label": "Export Contents…",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.convertToLinked",
+    "label": "Convert to Linked…",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.convertToEmbedded",
+    "label": "Convert to Embedded",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.entropy",
+    "label": "Entropy",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.kurtosis",
+    "label": "Kurtosis",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.maximum",
+    "label": "Maximum",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.mean",
+    "label": "Mean",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.median",
+    "label": "Median",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.minimum",
+    "label": "Minimum",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.range",
+    "label": "Range",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.skewness",
+    "label": "Skewness",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.standardDeviation",
+    "label": "Standard Deviation",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.summation",
+    "label": "Summation",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.variance",
+    "label": "Variance",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.rasterize",
+    "label": "Rasterize",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.warp",
+    "label": "Warp",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.perspectiveWarp",
+    "label": "Perspective Warp",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.puppetWarp",
+    "label": "Puppet Warp",
+    "path": [
+      "Layer",
+      "Smart Objects"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.newBlankVideoLayer",
+    "label": "New Blank Video Layer",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.newVideoLayerFromFile",
+    "label": "New Video Layer from File…",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.insertBlankFrame",
+    "label": "Insert Blank Frame",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.duplicateFrame",
+    "label": "Duplicate Frame",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.deleteFrame",
+    "label": "Delete Frame",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.replaceFootage",
+    "label": "Replace Footage…",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.interpretFootage",
+    "label": "Interpret Footage…",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.showAlteredVideo",
+    "label": "Show Altered Video",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.restoreFrame",
+    "label": "Restore Frame",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.restoreAllFrames",
+    "label": "Restore All Frames",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.reloadFrame",
+    "label": "Reload Frame",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.videoLayers.rasterize",
+    "label": "Rasterize",
+    "path": [
+      "Layer",
+      "Video Layers"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.type",
+    "label": "Type",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.shape",
+    "label": "Shape",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.fillContent",
+    "label": "Fill Content",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.vectorMask",
+    "label": "Vector Mask",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.smartObject",
+    "label": "Smart Object",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.video",
+    "label": "Video",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.layer",
+    "label": "Layer",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.rasterize.allLayers",
+    "label": "All Layers",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.newLayerBasedSlice",
+    "label": "New Layer Based Slice",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.groupLayers",
+    "label": "Group Layers",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.ungroupLayers",
+    "label": "Ungroup Layers",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.hideLayers",
+    "label": "Hide Layers",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.arrange.bringToFront",
+    "label": "Bring to Front",
+    "path": [
+      "Layer",
+      "Arrange"
+    ],
+    "shortcut": "Cmd+Shift+]",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.arrange.bringForward",
+    "label": "Bring Forward",
+    "path": [
+      "Layer",
+      "Arrange"
+    ],
+    "shortcut": "Cmd+]",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.arrange.sendBackward",
+    "label": "Send Backward",
+    "path": [
+      "Layer",
+      "Arrange"
+    ],
+    "shortcut": "Cmd+[",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.arrange.sendToBack",
+    "label": "Send to Back",
+    "path": [
+      "Layer",
+      "Arrange"
+    ],
+    "shortcut": "Cmd+Shift+[",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.arrange.reverse",
+    "label": "Reverse",
+    "path": [
+      "Layer",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.combineShapes.unite",
+    "label": "Unite Shapes",
+    "path": [
+      "Layer",
+      "Combine Shapes"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.combineShapes.subtractFrontShape",
+    "label": "Subtract Front Shape",
+    "path": [
+      "Layer",
+      "Combine Shapes"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.combineShapes.intersectShapeAreas",
+    "label": "Intersect Shape Areas",
+    "path": [
+      "Layer",
+      "Combine Shapes"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.combineShapes.excludeOverlappingShapes",
+    "label": "Exclude Overlapping Shapes",
+    "path": [
+      "Layer",
+      "Combine Shapes"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Combine Shapes"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.combineShapes.mergeShapeComponents",
+    "label": "Merge Shape Components",
+    "path": [
+      "Layer",
+      "Combine Shapes"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.align.topEdges",
+    "label": "Top Edges",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.align.verticalCenters",
+    "label": "Vertical Centers",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.align.bottomEdges",
+    "label": "Bottom Edges",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.align.leftEdges",
+    "label": "Left Edges",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.align.horizontalCenters",
+    "label": "Horizontal Centers",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.align.rightEdges",
+    "label": "Right Edges",
+    "path": [
+      "Layer",
+      "Align"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.topEdges",
+    "label": "Top Edges",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.verticalCenters",
+    "label": "Vertical Centers",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.bottomEdges",
+    "label": "Bottom Edges",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.leftEdges",
+    "label": "Left Edges",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.horizontalCenters",
+    "label": "Horizontal Centers",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.rightEdges",
+    "label": "Right Edges",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.horizontally",
+    "label": "Horizontally",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.distribute.vertically",
+    "label": "Vertically",
+    "path": [
+      "Layer",
+      "Distribute"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.lockLayers",
+    "label": "Lock Layers…",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.linkLayers",
+    "label": "Link Layers",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.selectLinkedLayers",
+    "label": "Select Linked Layers",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.mergeLayers",
+    "label": "Merge Layers",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": "Cmd+E",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.mergeVisible",
+    "label": "Merge Visible",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": "Cmd+Shift+E",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.flattenImage",
+    "label": "Flatten Image",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.matting.colorDecontaminate",
+    "label": "Color Decontaminate…",
+    "path": [
+      "Layer",
+      "Matting"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.matting.defringe",
+    "label": "Defringe…",
+    "path": [
+      "Layer",
+      "Matting"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.matting.removeBlackMatte",
+    "label": "Remove Black Matte",
+    "path": [
+      "Layer",
+      "Matting"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.matting.removeWhiteMatte",
+    "label": "Remove White Matte",
+    "path": [
+      "Layer",
+      "Matting"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.releaseClippingMask",
+    "label": "Release Clipping Mask",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.mergeDown",
+    "label": "Merge Down",
+    "path": [
+      "Layer"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.create",
+    "label": "New Type Layer",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.rasterize",
+    "label": "Rasterize Type",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "shape.create",
+    "label": "New Shape Layer",
+    "path": [
+      "Layer",
+      "New"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "shape.rasterize",
+    "label": "Rasterize Shape",
+    "path": [
+      "Layer",
+      "Rasterize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.add",
+    "label": "Add Vector Mask",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.vectorMask.fromPath",
+    "label": "Vector Mask from Current Path",
+    "path": [
+      "Layer",
+      "Vector Mask"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "layer.smartObjects.stackMode.none",
+    "label": "None",
+    "path": [
+      "Layer",
+      "Smart Objects",
+      "Stack Mode"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.panels.character",
+    "label": "Character Panel",
+    "path": [
+      "Type",
+      "Panels"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.panels.paragraph",
+    "label": "Paragraph Panel",
+    "path": [
+      "Type",
+      "Panels"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.panels.glyphs",
+    "label": "Glyphs Panel",
+    "path": [
+      "Type",
+      "Panels"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.panels.characterStyles",
+    "label": "Character Styles Panel",
+    "path": [
+      "Type",
+      "Panels"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.panels.paragraphStyles",
+    "label": "Paragraph Styles Panel",
+    "path": [
+      "Type",
+      "Panels"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.sharp",
+    "label": "Sharp",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.crisp",
+    "label": "Crisp",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.strong",
+    "label": "Strong",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.smooth",
+    "label": "Smooth",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.windowsLcd",
+    "label": "Windows LCD",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.windows",
+    "label": "Windows",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.orientation.horizontal",
+    "label": "Horizontal",
+    "path": [
+      "Type",
+      "Orientation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.orientation.vertical",
+    "label": "Vertical",
+    "path": [
+      "Type",
+      "Orientation"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.standardLigatures",
+    "label": "Standard Ligatures",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.contextualAlternates",
+    "label": "Contextual Alternates",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.discretionaryLigatures",
+    "label": "Discretionary Ligatures",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.swash",
+    "label": "Swash",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.oldstyle",
+    "label": "Oldstyle",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.stylisticAlternates",
+    "label": "Stylistic Alternates",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.titlingAlternates",
+    "label": "Titling Alternates",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.ornaments",
+    "label": "Ornaments",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.ordinals",
+    "label": "Ordinals",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.openType.fractions",
+    "label": "Fractions",
+    "path": [
+      "Type",
+      "OpenType"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.createWorkPath",
+    "label": "Create Work Path",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.convertToShape",
+    "label": "Convert to Shape",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.rasterizeTypeLayer",
+    "label": "Rasterize Type Layer",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.convertToParagraphText",
+    "label": "Convert to Paragraph Text",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.convertToPointText",
+    "label": "Convert to Point Text",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.warpText",
+    "label": "Warp Text…",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.fontPreviewSize.small",
+    "label": "Small",
+    "path": [
+      "Type",
+      "Font Preview Size"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.fontPreviewSize.medium",
+    "label": "Medium",
+    "path": [
+      "Type",
+      "Font Preview Size"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "type.fontPreviewSize.large",
+    "label": "Large",
+    "path": [
+      "Type",
+      "Font Preview Size"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.fontPreviewSize.extraLarge",
+    "label": "Extra Large",
+    "path": [
+      "Type",
+      "Font Preview Size"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.fontPreviewSize.huge",
+    "label": "Huge",
+    "path": [
+      "Type",
+      "Font Preview Size"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.languageOptions.defaultFeatures",
+    "label": "Default Features",
+    "path": [
+      "Type",
+      "Language Options"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "type.languageOptions.eastAsianFeatures",
+    "label": "East Asian Features",
+    "path": [
+      "Type",
+      "Language Options"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "type.languageOptions.middleEasternFeatures",
+    "label": "Middle Eastern Features",
+    "path": [
+      "Type",
+      "Language Options"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type",
+      "Language Options"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.languageOptions.middleEasternAndSouthAsianComposer",
+    "label": "Middle Eastern & South Asian Composer",
+    "path": [
+      "Type",
+      "Language Options"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.updateAllTextLayers",
+    "label": "Update All Text Layers",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.replaceAllMissingFonts",
+    "label": "Replace All Missing Fonts",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.resolveMissingFonts",
+    "label": "Resolve Missing Fonts…",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.pasteLoremIpsum",
+    "label": "Paste Lorem Ipsum",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.loadDefaultTypeStyles",
+    "label": "Load Default Type Styles",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.saveDefaultTypeStyles",
+    "label": "Save Default Type Styles",
+    "path": [
+      "Type"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.antiAlias.none",
+    "label": "None",
+    "path": [
+      "Type",
+      "Anti-Alias"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.all",
+    "label": "All",
+    "path": [
+      "Select"
+    ],
+    "shortcut": "Cmd+A",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.deselect",
+    "label": "Deselect",
+    "path": [
+      "Select"
+    ],
+    "shortcut": "Cmd+D",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.reselect",
+    "label": "Reselect",
+    "path": [
+      "Select"
+    ],
+    "shortcut": "Cmd+Shift+D",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.inverse",
+    "label": "Inverse Selection",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.convertToShape",
+    "label": "Convert to Shape",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.allLayers",
+    "label": "All Layers",
+    "path": [
+      "Select"
+    ],
+    "shortcut": "Cmd+Alt+A",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.deselectLayers",
+    "label": "Deselect Layers",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.findLayers",
+    "label": "Find Layers",
+    "path": [
+      "Select"
+    ],
+    "shortcut": "Cmd+Alt+Shift+F",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.isolateLayers",
+    "label": "Isolate Layers",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.colorRange",
+    "label": "Color Range…",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.focusArea",
+    "label": "Focus Area…",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.subject",
+    "label": "Subject",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.sky",
+    "label": "Sky",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.selectAndMask",
+    "label": "Select and Mask…",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.modify.border",
+    "label": "Border…",
+    "path": [
+      "Select",
+      "Modify"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.modify.smooth",
+    "label": "Smooth…",
+    "path": [
+      "Select",
+      "Modify"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.modify.expand",
+    "label": "Expand…",
+    "path": [
+      "Select",
+      "Modify"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.modify.contract",
+    "label": "Contract…",
+    "path": [
+      "Select",
+      "Modify"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.modify.feather",
+    "label": "Feather…",
+    "path": [
+      "Select",
+      "Modify"
+    ],
+    "shortcut": "Shift+F6",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.grow",
+    "label": "Grow",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.similar",
+    "label": "Similar",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.transformSelection",
+    "label": "Transform Selection",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.editInQuickMaskMode",
+    "label": "Edit in Quick Mask Mode",
+    "path": [
+      "Select"
+    ],
+    "shortcut": "Q",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.loadSelection",
+    "label": "Load Selection…",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "select.saveSelection",
+    "label": "Save Selection…",
+    "path": [
+      "Select"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.lastFilter",
+    "label": "Last Filter",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": "Cmd+Alt+F",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.convertForSmartFilters",
+    "label": "Convert for Smart Filters",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.filterGallery",
+    "label": "Filter Gallery…",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.cameraRaw",
+    "label": "Camera Raw Filter…",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": "Cmd+Shift+A",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.adaptiveWideAngle",
+    "label": "Adaptive Wide Angle…",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": "Cmd+Alt+Shift+A",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.lensCorrection",
+    "label": "Lens Correction…",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": "Cmd+Shift+R",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.liquify",
+    "label": "Liquify…",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": "Cmd+Shift+X",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.vanishingPoint",
+    "label": "Vanishing Point…",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": "Cmd+Alt+V",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Filter"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.average",
+    "label": "Average",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.blur",
+    "label": "Blur",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.blurMore",
+    "label": "Blur More",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.boxBlur",
+    "label": "Box Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.gaussianBlur",
+    "label": "Gaussian Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.lensBlur",
+    "label": "Lens Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.motionBlur",
+    "label": "Motion Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.radialBlur",
+    "label": "Radial Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.shapeBlur",
+    "label": "Shape Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.smartBlur",
+    "label": "Smart Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blur.surfaceBlur",
+    "label": "Surface Blur…",
+    "path": [
+      "Filter",
+      "Blur"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blurGallery.fieldBlur",
+    "label": "Field Blur…",
+    "path": [
+      "Filter",
+      "Blur Gallery"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blurGallery.irisBlur",
+    "label": "Iris Blur…",
+    "path": [
+      "Filter",
+      "Blur Gallery"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blurGallery.tiltShift",
+    "label": "Tilt-Shift…",
+    "path": [
+      "Filter",
+      "Blur Gallery"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blurGallery.pathBlur",
+    "label": "Path Blur…",
+    "path": [
+      "Filter",
+      "Blur Gallery"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.blurGallery.spinBlur",
+    "label": "Spin Blur…",
+    "path": [
+      "Filter",
+      "Blur Gallery"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.displace",
+    "label": "Displace…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.pinch",
+    "label": "Pinch…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.polarCoordinates",
+    "label": "Polar Coordinates…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.ripple",
+    "label": "Ripple…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.shear",
+    "label": "Shear…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.spherize",
+    "label": "Spherize…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.twirl",
+    "label": "Twirl…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.wave",
+    "label": "Wave…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.distort.zigZag",
+    "label": "ZigZag…",
+    "path": [
+      "Filter",
+      "Distort"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.noise.addNoise",
+    "label": "Add Noise…",
+    "path": [
+      "Filter",
+      "Noise"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.noise.despeckle",
+    "label": "Despeckle",
+    "path": [
+      "Filter",
+      "Noise"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.noise.dustAndScratches",
+    "label": "Dust & Scratches…",
+    "path": [
+      "Filter",
+      "Noise"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.noise.median",
+    "label": "Median…",
+    "path": [
+      "Filter",
+      "Noise"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.noise.reduceNoise",
+    "label": "Reduce Noise…",
+    "path": [
+      "Filter",
+      "Noise"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.colorHalftone",
+    "label": "Color Halftone…",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.crystallize",
+    "label": "Crystallize…",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.facet",
+    "label": "Facet",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.fragment",
+    "label": "Fragment",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.mezzotint",
+    "label": "Mezzotint…",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.mosaic",
+    "label": "Mosaic…",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.pixelate.pointillize",
+    "label": "Pointillize…",
+    "path": [
+      "Filter",
+      "Pixelate"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.flame",
+    "label": "Flame…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.pictureFrame",
+    "label": "Picture Frame…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.tree",
+    "label": "Tree…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.clouds",
+    "label": "Clouds",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.differenceClouds",
+    "label": "Difference Clouds",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.fibers",
+    "label": "Fibers…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.lensFlare",
+    "label": "Lens Flare…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.lightingEffects",
+    "label": "Lighting Effects…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.render.relight",
+    "label": "Relight…",
+    "path": [
+      "Filter",
+      "Render"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.sharpen.sharpen",
+    "label": "Sharpen",
+    "path": [
+      "Filter",
+      "Sharpen"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.sharpen.sharpenEdges",
+    "label": "Sharpen Edges",
+    "path": [
+      "Filter",
+      "Sharpen"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.sharpen.sharpenMore",
+    "label": "Sharpen More",
+    "path": [
+      "Filter",
+      "Sharpen"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.sharpen.smartSharpen",
+    "label": "Smart Sharpen…",
+    "path": [
+      "Filter",
+      "Sharpen"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.sharpen.unsharpMask",
+    "label": "Unsharp Mask…",
+    "path": [
+      "Filter",
+      "Sharpen"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.diffuse",
+    "label": "Diffuse…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.emboss",
+    "label": "Emboss…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.extrude",
+    "label": "Extrude…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.findEdges",
+    "label": "Find Edges",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.oilPaint",
+    "label": "Oil Paint…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.solarize",
+    "label": "Solarize",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.tiles",
+    "label": "Tiles…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.traceContour",
+    "label": "Trace Contour…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.stylize.wind",
+    "label": "Wind…",
+    "path": [
+      "Filter",
+      "Stylize"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.video.deInterlace",
+    "label": "De-Interlace…",
+    "path": [
+      "Filter",
+      "Video"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.video.ntscColors",
+    "label": "NTSC Colors",
+    "path": [
+      "Filter",
+      "Video"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.other.custom",
+    "label": "Custom…",
+    "path": [
+      "Filter",
+      "Other…"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.other.hsbHsl",
+    "label": "HSB/HSL",
+    "path": [
+      "Filter",
+      "Other…"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.other.highPass",
+    "label": "High Pass…",
+    "path": [
+      "Filter",
+      "Other…"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.other.maximum",
+    "label": "Maximum…",
+    "path": [
+      "Filter",
+      "Other…"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.other.minimum",
+    "label": "Minimum…",
+    "path": [
+      "Filter",
+      "Other…"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "filter.other.offset",
+    "label": "Offset…",
+    "path": [
+      "Filter",
+      "Other…"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "plugin.install",
+    "label": "Install Plug-in…",
+    "path": [
+      "Filter",
+      "Plug-ins"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.custom",
+    "label": "Custom…",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.workingCmyk",
+    "label": "Working CMYK",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.workingCyanPlate",
+    "label": "Working Cyan Plate",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.workingMagentaPlate",
+    "label": "Working Magenta Plate",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.workingYellowPlate",
+    "label": "Working Yellow Plate",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.workingBlackPlate",
+    "label": "Working Black Plate",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.workingCmyPlate",
+    "label": "Working CMY Plate",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.legacyMacintoshRgb",
+    "label": "Legacy Macintosh RGB",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.internetStandardRgb",
+    "label": "Internet Standard RGB",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.monitorRgb",
+    "label": "Monitor RGB",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.colorBlindnessProtanopia",
+    "label": "Color Blindness — Protanopia-type",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofSetup.colorBlindnessDeuteranopia",
+    "label": "Color Blindness — Deuteranopia-type",
+    "path": [
+      "View",
+      "Proof Setup"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.proofColors",
+    "label": "Proof Colors",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+Y",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.gamutWarning",
+    "label": "Gamut Warning",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+Shift+Y",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.pixelAspectRatio.custom",
+    "label": "Custom Pixel Aspect Ratio…",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.pixelAspectRatio.square",
+    "label": "Square",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.pixelAspectRatio.d1DvNtsc",
+    "label": "D1/DV NTSC (0.91)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatio.d1DvPal",
+    "label": "D1/DV PAL (1.09)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatio.d1DvNtscWidescreen",
+    "label": "D1/DV NTSC Widescreen (1.21)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatio.hdv1080",
+    "label": "HDV 1080/DVCPRO HD 720 (1.33)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatio.d1DvPalWidescreen",
+    "label": "D1/DV PAL Widescreen (1.46)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatio.dvcproHd1080",
+    "label": "DVCPRO HD 1080/HDV 1080 (1.5)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatio.anamorphic2To1",
+    "label": "Anamorphic 2:1 (2)",
+    "path": [
+      "View",
+      "Pixel Aspect Ratio"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelAspectRatioCorrection",
+    "label": "Pixel Aspect Ratio Correction",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.thirtyTwoBitPreviewOptions",
+    "label": "32-bit Preview Options…",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.zoomIn",
+    "label": "Zoom In",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+=",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.zoomOut",
+    "label": "Zoom Out",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+-",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.fitOnScreen",
+    "label": "Fit on Screen",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.fitLayersOnScreen",
+    "label": "Fit Layer(s) on Screen",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.fitArtboardOnScreen",
+    "label": "Fit Artboard on Screen",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.actualPixels",
+    "label": "100%",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+1",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.twoHundredPercent",
+    "label": "200%",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.printSize",
+    "label": "Print Size",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.flipHorizontal",
+    "label": "Flip Horizontal",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.screenMode.standard",
+    "label": "Standard Screen Mode",
+    "path": [
+      "View",
+      "Screen Mode"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.screenMode.fullScreenWithMenuBar",
+    "label": "Full Screen Mode With Menu Bar",
+    "path": [
+      "View",
+      "Screen Mode"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.screenMode.fullScreen",
+    "label": "Full Screen Mode",
+    "path": [
+      "View",
+      "Screen Mode"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.extras",
+    "label": "Extras",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+H",
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.layerEdges",
+    "label": "Layer Edges",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.show.selectionEdges",
+    "label": "Selection Edges",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.targetPath",
+    "label": "Target Path",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": "Cmd+Shift+H",
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.grid",
+    "label": "Grid",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": "Cmd+'",
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.show.guides",
+    "label": "Guides",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": "Cmd+;",
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.canvasGuides",
+    "label": "Canvas Guides",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.artboardGuides",
+    "label": "Artboard Guides",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.count",
+    "label": "Count",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.smartGuides",
+    "label": "Smart Guides",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.slices",
+    "label": "Slices",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.notes",
+    "label": "Notes",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.pixelGrid",
+    "label": "Pixel Grid",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.brushPreview",
+    "label": "Brush Preview",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.show.mesh",
+    "label": "Mesh",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.show.editPins",
+    "label": "Edit Pins",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.show.all",
+    "label": "All",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "view.show.showExtrasOptions",
+    "label": "Show Extras Options…",
+    "path": [
+      "View",
+      "Show"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.rulers",
+    "label": "Rulers",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+R",
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.snap",
+    "label": "Snap",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+Shift+;",
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.snapTo.guides",
+    "label": "Guides",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.snapTo.grid",
+    "label": "Grid",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.snapTo.layers",
+    "label": "Layers",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.snapTo.slices",
+    "label": "Slices",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "view.snapTo.documentBounds",
+    "label": "Document Bounds",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.snapTo.all",
+    "label": "All",
+    "path": [
+      "View",
+      "Snap To"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.lockGuides",
+    "label": "Lock Guides",
+    "path": [
+      "View"
+    ],
+    "shortcut": "Cmd+Alt+;",
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.clearGuides",
+    "label": "Clear Guides",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.clearSelectedArtboardGuides",
+    "label": "Clear Selected Artboard Guides",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.clearCanvasGuides",
+    "label": "Clear Canvas Guides",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.newGuide",
+    "label": "New Guide…",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.newGuideLayout",
+    "label": "New Guide Layout…",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.newGuidesFromShape",
+    "label": "New Guides From Shape",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.lockSlices",
+    "label": "Lock Slices",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "view.clearSlices",
+    "label": "Clear Slices",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "view.patternPreview",
+    "label": "Pattern Preview",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "view.pixelArtPreview",
+    "label": "Pixel Art Preview",
+    "path": [
+      "View"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.tileAllVertically",
+    "label": "Tile All Vertically",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.tileAllHorizontally",
+    "label": "Tile All Horizontally",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.twoUpVertical",
+    "label": "2-up Vertical",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.twoUpHorizontal",
+    "label": "2-up Horizontal",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.threeUpVertical",
+    "label": "3-up Vertical",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.threeUpHorizontal",
+    "label": "3-up Horizontal",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.threeUpStacked",
+    "label": "3-up Stacked",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.fourUp",
+    "label": "4-up",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "window.arrange.sixUp",
+    "label": "6-up",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.consolidateAllToTabs",
+    "label": "Consolidate All to Tabs",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.cascade",
+    "label": "Cascade",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.tile",
+    "label": "Tile",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.floatInWindow",
+    "label": "Float in Window",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.floatAllInWindows",
+    "label": "Float All in Windows",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.newWindowForDocument",
+    "label": "New Window for Document",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.matchZoom",
+    "label": "Match Zoom",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.matchLocation",
+    "label": "Match Location",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.matchRotation",
+    "label": "Match Rotation",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.arrange.matchAll",
+    "label": "Match All",
+    "path": [
+      "Window",
+      "Arrange"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.workspace.essentials",
+    "label": "Essentials",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "window.workspace.photography",
+    "label": "Photography",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.workspace.painting",
+    "label": "Painting",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.workspace.pixelArt",
+    "label": "Pixel Art",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.workspace.graphicAndWeb",
+    "label": "Graphic and Web",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.workspace.motion",
+    "label": "Motion",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.workspace.resetWorkspace",
+    "label": "Reset Workspace",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.workspace.newWorkspace",
+    "label": "New Workspace…",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.workspace.deleteWorkspace",
+    "label": "Delete Workspace…",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "edit.keyboardShortcuts",
+    "label": "Keyboard Shortcuts…",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": "Cmd+Alt+Shift+K",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.workspace.lockWorkspace",
+    "label": "Lock Workspace",
+    "path": [
+      "Window",
+      "Workspace"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.panel.actions",
+    "label": "Actions",
+    "path": [
+      "Window"
+    ],
+    "shortcut": "Alt+F9",
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.adjustments",
+    "label": "Adjustments",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.brushSettings",
+    "label": "Brush Settings",
+    "path": [
+      "Window"
+    ],
+    "shortcut": "F5",
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.brushes",
+    "label": "Brushes",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.channels",
+    "label": "Channels",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.character",
+    "label": "Character",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.characterStyles",
+    "label": "Character Styles",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.cloneSource",
+    "label": "Clone Source",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.color",
+    "label": "Color",
+    "path": [
+      "Window"
+    ],
+    "shortcut": "F6",
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "window.panel.glyphs",
+    "label": "Glyphs",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.gradients",
+    "label": "Gradients",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.histogram",
+    "label": "Histogram",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.history",
+    "label": "History",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.info",
+    "label": "Info",
+    "path": [
+      "Window"
+    ],
+    "shortcut": "F8",
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.layerComps",
+    "label": "Layer Comps",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.layers",
+    "label": "Layers",
+    "path": [
+      "Window"
+    ],
+    "shortcut": "F7",
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "window.panel.measurementLog",
+    "label": "Measurement Log",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.modifierKeys",
+    "label": "Modifier Keys",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.navigator",
+    "label": "Navigator",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.notes",
+    "label": "Notes",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.paragraph",
+    "label": "Paragraph",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.paragraphStyles",
+    "label": "Paragraph Styles",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.paths",
+    "label": "Paths",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.patterns",
+    "label": "Patterns",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.properties",
+    "label": "Properties",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "window.panel.shapes",
+    "label": "Shapes",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.styles",
+    "label": "Styles",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.swatches",
+    "label": "Swatches",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.timeline",
+    "label": "Timeline",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "window.panel.toolPresets",
+    "label": "Tool Presets",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": false
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "window.panel.options",
+    "label": "Options",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "window.panel.tools",
+    "label": "Tools",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": true
+  },
+  {
+    "id": "window.theme.toggle",
+    "label": "Next Theme",
+    "path": [
+      "Window"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.theme.pro",
+    "label": "Pro Theme",
+    "path": [
+      "Window",
+      "Theme"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.theme.proMedium",
+    "label": "Pro Medium Gray Theme",
+    "path": [
+      "Window",
+      "Theme"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.theme.studio",
+    "label": "Studio Theme",
+    "path": [
+      "Window",
+      "Theme"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.theme.studioLight",
+    "label": "Studio Light Theme",
+    "path": [
+      "Window",
+      "Theme"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "window.theme.classic",
+    "label": "Classic Theme",
+    "path": [
+      "Window",
+      "Theme"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "view.screenMode.cycle",
+    "label": "Cycle Screen Mode",
+    "path": [],
+    "shortcut": "F",
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "edit.freeTransformCopy",
+    "label": "Free Transform a Copy",
+    "path": [],
+    "shortcut": "Cmd+Alt+T",
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "type.editText",
+    "label": "Edit Type",
+    "path": [],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "help.discord",
+    "label": "Join the ArtCraft Discord…",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "help.website",
+    "label": "PhotoCraft Website",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "help.artcraftWebsite",
+    "label": "ArtCraft Website",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "help.github",
+    "label": "PhotoCraft on GitHub",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "help.reportIssue",
+    "label": "Report an Issue…",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "---",
+    "label": "---",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": false,
+    "checked": null
+  },
+  {
+    "id": "help.systemInfo",
+    "label": "System Info…",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  },
+  {
+    "id": "help.about",
+    "label": "About PhotoCraft",
+    "path": [
+      "Help"
+    ],
+    "shortcut": null,
+    "enabled": true,
+    "checked": null
+  }
+]

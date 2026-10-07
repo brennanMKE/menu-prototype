@@ -1,0 +1,14 @@
+# Exports PhotoCraft's real menu (`menu_items`, the same data `ui.menu.list` returns) without
+# opening a window. Builds against the photocraft checkout next to this repo.
+[package]
+name = "export-photocraft"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[workspace]
+
+[dependencies]
+photocraft-ui-egui = { path = "../../../photocraft/crates/ui-egui" }
+photocraft-engine = { path = "../../../photocraft/crates/engine" }
+serde_json = "1"

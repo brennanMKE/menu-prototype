@@ -1,0 +1,14 @@
+# Exports LightCraft's menu tree (what `ui.menu.tree` returns) without opening a window, to check
+# that the prototype's model loads a tree-shaped menu as well as PhotoCraft's flat one.
+[package]
+name = "export-lightcraft"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[workspace]
+
+[dependencies]
+lightcraft-ui-egui = { path = "../../../lightcraft/crates/ui-egui" }
+lightcraft-engine = { path = "../../../lightcraft/crates/engine" }
+serde_json = "1"

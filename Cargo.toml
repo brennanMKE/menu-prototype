@@ -1,0 +1,24 @@
+[package]
+name = "menu-proto"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+publish = false
+description = "One menu model for the Crafting Apps, drawn in-window (egui) or as the native macOS menu bar (muda)"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[dependencies]
+eframe = { version = "0.36", default-features = false, features = ["default_fonts", "glow", "accesskit"] }
+egui = "0.36"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+muda = { version = "0.21", default-features = false }
+objc2 = "0.6"
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "NSApplication", "NSResponder"] }
+
+[dev-dependencies]
+egui_kittest = "0.36"

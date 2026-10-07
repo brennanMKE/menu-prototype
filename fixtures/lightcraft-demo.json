@@ -1,0 +1,2003 @@
+[
+  {
+    "children": [
+      {
+        "enabled": true,
+        "id": "file.addPhotos",
+        "kind": "item",
+        "label": "Import Photos…",
+        "shortcut": "Cmd+Shift+I"
+      },
+      {
+        "enabled": false,
+        "id": "file.addFolder",
+        "kind": "item",
+        "label": "Import from Folder…"
+      },
+      {
+        "children": [
+          {
+            "enabled": false,
+            "id": "file.addFromDevice",
+            "kind": "item",
+            "label": "No Camera or Card Found"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Import from Device"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": false,
+        "id": "app.openLibrary",
+        "kind": "item",
+        "label": "Open Library…"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.newAlbum",
+        "kind": "item",
+        "label": "New Album…",
+        "shortcut": "Cmd+N"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.newFolder",
+        "kind": "item",
+        "label": "New Folder…",
+        "shortcut": "Cmd+Shift+N"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.smartAlbum",
+        "kind": "item",
+        "label": "New Smart Album…"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.newSmartAlbum",
+        "kind": "item",
+        "label": "New Smart Album from Filter…",
+        "shortcut": "Cmd+Alt+N"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "file.importPresets",
+        "kind": "item",
+        "label": "Import Profiles & Presets…"
+      },
+      {
+        "enabled": false,
+        "id": "file.exportPresets",
+        "kind": "item",
+        "label": "Export Presets…"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.export",
+        "kind": "item",
+        "label": "Export…"
+      },
+      {
+        "enabled": false,
+        "id": "app.exportPrevious",
+        "kind": "item",
+        "label": "Export with Previous",
+        "shortcut": "Cmd+Alt+Shift+E"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "app.export",
+            "kind": "item",
+            "label": "JPEG (Small)",
+            "params": {
+              "background": true,
+              "preset": "JPEG (Small)"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "app.export",
+            "kind": "item",
+            "label": "JPEG (Large)",
+            "params": {
+              "background": true,
+              "preset": "JPEG (Large)"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "app.export",
+            "kind": "item",
+            "label": "Original + Settings",
+            "params": {
+              "background": true,
+              "preset": "Original + Settings"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "app.export",
+            "kind": "item",
+            "label": "DNG",
+            "params": {
+              "background": true,
+              "preset": "DNG"
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": true,
+            "id": "dialog.export",
+            "kind": "item",
+            "label": "Custom…"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Export with Preset"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "library.toggleAutoWriteXmp",
+        "kind": "item",
+        "label": "Automatically Write Changes into XMP"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "library.buildPreviews",
+            "kind": "item",
+            "label": "Build Standard-Sized Previews (Visible)",
+            "params": {
+              "edge": 2560,
+              "size": "standard"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.buildPreviews",
+            "kind": "item",
+            "label": "Build 1:1 Previews (Visible)",
+            "params": {
+              "size": "full"
+            }
+          },
+          {
+            "enabled": false,
+            "id": "library.cancelPreviews",
+            "kind": "item",
+            "label": "Stop Building Previews"
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": false,
+            "id": "library.smartPreviews",
+            "kind": "item",
+            "label": "Build Smart Previews (Visible)",
+            "params": {
+              "background": true
+            }
+          },
+          {
+            "enabled": false,
+            "id": "library.smartPreviews",
+            "kind": "item",
+            "label": "Discard Smart Previews (Visible)",
+            "params": {
+              "background": true,
+              "discard": true
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": true,
+            "id": "library.clearPreviews",
+            "kind": "item",
+            "label": "Discard Preview Cache"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Previews"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "file.findMissing",
+        "kind": "item",
+        "label": "Find Missing Photos…"
+      },
+      {
+        "enabled": false,
+        "id": "library.compact",
+        "kind": "item",
+        "label": "Optimize Library"
+      },
+      {
+        "enabled": true,
+        "id": "library.clearPreviews",
+        "kind": "item",
+        "label": "Clear Preview Cache"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "app.quit",
+        "kind": "item",
+        "label": "Quit LightCraft",
+        "shortcut": "Cmd+Q"
+      }
+    ],
+    "label": "File"
+  },
+  {
+    "children": [
+      {
+        "enabled": false,
+        "id": "edit.undo",
+        "kind": "item",
+        "label": "Undo",
+        "shortcut": "Cmd+Z"
+      },
+      {
+        "enabled": false,
+        "id": "edit.redo",
+        "kind": "item",
+        "label": "Redo",
+        "shortcut": "Cmd+Shift+Z"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "develop.copy",
+        "kind": "item",
+        "label": "Copy Edit Settings",
+        "shortcut": "Cmd+C"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.copySettings",
+        "kind": "item",
+        "label": "Choose Edit Settings to Copy…",
+        "shortcut": "Cmd+Shift+C"
+      },
+      {
+        "enabled": false,
+        "id": "develop.paste",
+        "kind": "item",
+        "label": "Paste Edit Settings",
+        "shortcut": "Cmd+V"
+      },
+      {
+        "enabled": false,
+        "id": "dialog.pasteSettings",
+        "kind": "item",
+        "label": "Paste Selected Settings…",
+        "shortcut": "Cmd+Shift+V"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "develop.autoSync",
+        "kind": "item",
+        "label": "Auto Sync",
+        "shortcut": "Cmd+Alt+Shift+A"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "library.selectAll",
+        "kind": "item",
+        "label": "Select All",
+        "shortcut": "Cmd+A"
+      },
+      {
+        "enabled": true,
+        "id": "library.selectNone",
+        "kind": "item",
+        "label": "Deselect All",
+        "shortcut": "Cmd+Shift+A"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Picks",
+            "params": {
+              "flag": "pick"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Rejects",
+            "params": {
+              "flag": "reject"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Unflagged",
+            "params": {
+              "flag": "none"
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "★ and higher",
+            "params": {
+              "rating": 1
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "★★ and higher",
+            "params": {
+              "rating": 2
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "★★★ and higher",
+            "params": {
+              "rating": 3
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "★★★★ and higher",
+            "params": {
+              "rating": 4
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "★★★★★ and higher",
+            "params": {
+              "rating": 5
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Unrated",
+            "params": {
+              "rating": 0,
+              "ratingOp": "eq"
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Red Label",
+            "params": {
+              "label": "red"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Yellow Label",
+            "params": {
+              "label": "yellow"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Green Label",
+            "params": {
+              "label": "green"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Blue Label",
+            "params": {
+              "label": "blue"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "library.selectBy",
+            "kind": "item",
+            "label": "Purple Label",
+            "params": {
+              "label": "purple"
+            }
+          }
+        ],
+        "kind": "submenu",
+        "label": "Select by"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "view.focusSearch",
+        "kind": "item",
+        "label": "Find…",
+        "shortcut": "Cmd+F"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "app.settings",
+        "kind": "item",
+        "label": "Settings…",
+        "shortcut": "Cmd+,"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "develop.pastePrevious",
+        "kind": "item",
+        "label": "Paste Settings from Previous",
+        "shortcut": "Cmd+Alt+V"
+      },
+      {
+        "children": [
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "app.language.english",
+            "kind": "item",
+            "label": "English"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "app.language.simplifiedChinese",
+            "kind": "item",
+            "label": "简体中文"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "app.language.traditionalChinese",
+            "kind": "item",
+            "label": "繁體中文（台灣）"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "app.language.japanese",
+            "kind": "item",
+            "label": "日本語"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Language"
+      }
+    ],
+    "label": "Edit"
+  },
+  {
+    "children": [
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.photoGrid",
+        "kind": "item",
+        "label": "Photo Grid"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.squareGrid",
+        "kind": "item",
+        "label": "Square Grid"
+      },
+      {
+        "children": [
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "view.gridInfo",
+            "kind": "item",
+            "label": "File Name",
+            "params": {
+              "info": "filename"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "view.gridInfo",
+            "kind": "item",
+            "label": "Exposure (shutter · aperture · ISO)",
+            "params": {
+              "info": "exposure"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "view.gridInfo",
+            "kind": "item",
+            "label": "Capture Date",
+            "params": {
+              "info": "date"
+            }
+          }
+        ],
+        "kind": "submenu",
+        "label": "Grid Info"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.detail",
+        "kind": "item",
+        "label": "Detail",
+        "shortcut": "D"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.compare",
+        "kind": "item",
+        "label": "Compare",
+        "shortcut": "Shift+C"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.survey",
+        "kind": "item",
+        "label": "Survey",
+        "shortcut": "N"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.people",
+        "kind": "item",
+        "label": "People"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.leftPanel",
+        "kind": "item",
+        "label": "My Photos Panel",
+        "shortcut": "Cmd+Shift+L"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.photoCounts",
+        "kind": "item",
+        "label": "Show Photo Counts"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.faceBoxes",
+        "kind": "item",
+        "label": "Face Boxes"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.filmstrip",
+        "kind": "item",
+        "label": "Filmstrip",
+        "shortcut": "/"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.histogram",
+        "kind": "item",
+        "label": "Histogram",
+        "shortcut": "Cmd+Shift+H"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.navigator",
+        "kind": "item",
+        "label": "Navigator"
+      },
+      {
+        "enabled": true,
+        "id": "view.infoOverlay",
+        "kind": "item",
+        "label": "Cycle Info Overlay",
+        "shortcut": "Cmd+I"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.fullScreenPreview",
+        "kind": "item",
+        "label": "Full Screen Preview",
+        "shortcut": "F"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.enterFullScreen",
+        "kind": "item",
+        "label": "Enter Full Screen",
+        "shortcut": "Cmd+Shift+F"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.showOriginal",
+        "kind": "item",
+        "label": "Show Original",
+        "shortcut": "\\"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.beforeAfter",
+        "kind": "item",
+        "label": "Compare Before and After",
+        "shortcut": "Y"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.beforeAfterSplit",
+        "kind": "item",
+        "label": "Before/After Split",
+        "shortcut": "Shift+Y"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "beforeAfter.copyAfterToBefore",
+            "kind": "item",
+            "label": "Copy After's Settings to Before"
+          },
+          {
+            "enabled": true,
+            "id": "beforeAfter.copyBeforeToAfter",
+            "kind": "item",
+            "label": "Copy Before's Settings to After"
+          },
+          {
+            "enabled": true,
+            "id": "beforeAfter.swap",
+            "kind": "item",
+            "label": "Swap Before and After Settings"
+          },
+          {
+            "enabled": true,
+            "id": "beforeAfter.resetBefore",
+            "kind": "item",
+            "label": "Reset Before to Import State"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Before/After Settings"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "view.zoomIn",
+        "kind": "item",
+        "label": "Zoom In",
+        "shortcut": "Cmd+="
+      },
+      {
+        "enabled": true,
+        "id": "view.zoomOut",
+        "kind": "item",
+        "label": "Zoom Out",
+        "shortcut": "Cmd+-"
+      },
+      {
+        "enabled": true,
+        "id": "view.zoomToggle",
+        "kind": "item",
+        "label": "Toggle Zoom",
+        "shortcut": "Z"
+      },
+      {
+        "enabled": true,
+        "id": "view.zoomFit",
+        "kind": "item",
+        "label": "Zoom to Fit",
+        "shortcut": "Cmd+0"
+      },
+      {
+        "enabled": true,
+        "id": "view.zoom100",
+        "kind": "item",
+        "label": "Zoom 100%",
+        "shortcut": "Cmd+Alt+0"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.clipping",
+        "kind": "item",
+        "label": "Show Clipping",
+        "shortcut": "J"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.softProof",
+        "kind": "item",
+        "label": "Soft Proofing",
+        "shortcut": "S"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.maskOverlay",
+        "kind": "item",
+        "label": "Show Mask Overlay",
+        "shortcut": "O"
+      },
+      {
+        "enabled": true,
+        "id": "view.maskOverlayMode",
+        "kind": "item",
+        "label": "Cycle Mask Overlay Mode"
+      },
+      {
+        "enabled": true,
+        "id": "view.maskOverlayColor",
+        "kind": "item",
+        "label": "Cycle Mask Overlay Color"
+      },
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "view.maskPins",
+        "kind": "item",
+        "label": "Show Mask Pins"
+      },
+      {
+        "enabled": true,
+        "id": "view.cropOverlay",
+        "kind": "item",
+        "label": "Cycle Crop Overlay",
+        "shortcut": "Shift+O"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "children": [
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Capture Date",
+            "params": {
+              "key": "captureDate"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Import Date",
+            "params": {
+              "key": "importDate"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Modified Date",
+            "params": {
+              "key": "editDate"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "File Name",
+            "params": {
+              "key": "fileName"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Rating",
+            "params": {
+              "key": "rating"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "File Size",
+            "params": {
+              "key": "fileSize"
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Ascending",
+            "params": {
+              "ascending": true
+            }
+          },
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Descending",
+            "params": {
+              "ascending": false
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Group by Date: Automatic",
+            "params": {
+              "group": "auto"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Group by Day",
+            "params": {
+              "group": "day"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Group by Month",
+            "params": {
+              "group": "month"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "Group by Year",
+            "params": {
+              "group": "year"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "library.sort",
+            "kind": "item",
+            "label": "No Date Groups",
+            "params": {
+              "group": "none"
+            }
+          }
+        ],
+        "kind": "submenu",
+        "label": "Sort"
+      },
+      {
+        "children": [
+          {
+            "enabled": false,
+            "id": "stack.expandAll",
+            "kind": "item",
+            "label": "Expand All Stacks"
+          },
+          {
+            "enabled": false,
+            "id": "stack.collapseAll",
+            "kind": "item",
+            "label": "Collapse All Stacks"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Stacks"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.filterBar",
+        "kind": "item",
+        "label": "Filter Bar",
+        "shortcut": "Shift+F"
+      },
+      {
+        "enabled": true,
+        "id": "library.clearFilter",
+        "kind": "item",
+        "label": "Clear Filters"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": false,
+        "id": "compare.swap",
+        "kind": "item",
+        "label": "Swap Compare Photos"
+      },
+      {
+        "enabled": false,
+        "id": "compare.makeSelect",
+        "kind": "item",
+        "label": "Make Candidate the Select"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.reference",
+        "kind": "item",
+        "label": "Reference View",
+        "shortcut": "Shift+R"
+      },
+      {
+        "enabled": true,
+        "id": "view.beforeAfterTopBottom",
+        "kind": "item",
+        "label": "Before/After Top/Bottom",
+        "shortcut": "Alt+Y"
+      },
+      {
+        "enabled": true,
+        "id": "view.beforeAfterSplitTopBottom",
+        "kind": "item",
+        "label": "Before/After Split Top/Bottom",
+        "shortcut": "Alt+Shift+Y"
+      },
+      {
+        "enabled": true,
+        "id": "view.visualizeSpots",
+        "kind": "item",
+        "label": "Visualize Spots",
+        "shortcut": "A"
+      },
+      {
+        "enabled": true,
+        "id": "view.cropOverlayOrientation",
+        "kind": "item",
+        "label": "Cycle Crop Overlay Orientation"
+      },
+      {
+        "enabled": true,
+        "id": "view.slideshow",
+        "kind": "item",
+        "label": "Slideshow",
+        "shortcut": "Cmd+Alt+Enter"
+      }
+    ],
+    "label": "View"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "album.addPhotos",
+            "kind": "item",
+            "label": "Coastlines",
+            "params": {
+              "id": 3
+            }
+          },
+          {
+            "enabled": true,
+            "id": "album.addPhotos",
+            "kind": "item",
+            "label": "Deserts",
+            "params": {
+              "id": 4
+            }
+          },
+          {
+            "enabled": true,
+            "id": "album.addPhotos",
+            "kind": "item",
+            "label": "Garden",
+            "params": {
+              "id": 6
+            }
+          },
+          {
+            "enabled": true,
+            "id": "album.addPhotos",
+            "kind": "item",
+            "label": "Mountains",
+            "params": {
+              "id": 2
+            }
+          },
+          {
+            "enabled": true,
+            "id": "album.addPhotos",
+            "kind": "item",
+            "label": "Night Sky",
+            "params": {
+              "id": 5
+            }
+          },
+          {
+            "enabled": true,
+            "id": "album.addPhotos",
+            "kind": "item",
+            "label": "Portfolio",
+            "params": {
+              "id": 7
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": true,
+            "id": "dialog.newAlbum",
+            "kind": "item",
+            "label": "New Album…"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Add to Album"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "children": [
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "photo.rate",
+            "kind": "item",
+            "label": "None",
+            "params": {
+              "rating": 0
+            },
+            "shortcut": "0"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.rate",
+            "kind": "item",
+            "label": "★",
+            "params": {
+              "rating": 1
+            },
+            "shortcut": "1"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.rate",
+            "kind": "item",
+            "label": "★★",
+            "params": {
+              "rating": 2
+            },
+            "shortcut": "2"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.rate",
+            "kind": "item",
+            "label": "★★★",
+            "params": {
+              "rating": 3
+            },
+            "shortcut": "3"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.rate",
+            "kind": "item",
+            "label": "★★★★",
+            "params": {
+              "rating": 4
+            },
+            "shortcut": "4"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.rate",
+            "kind": "item",
+            "label": "★★★★★",
+            "params": {
+              "rating": 5
+            },
+            "shortcut": "5"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Set Rating"
+      },
+      {
+        "children": [
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.flag",
+            "kind": "item",
+            "label": "Pick",
+            "params": {
+              "flag": "pick"
+            },
+            "shortcut": "P"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.flag",
+            "kind": "item",
+            "label": "Reject",
+            "params": {
+              "flag": "reject"
+            },
+            "shortcut": "X"
+          },
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "photo.flag",
+            "kind": "item",
+            "label": "Unflagged",
+            "params": {
+              "flag": "none"
+            },
+            "shortcut": "U"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Set Flag"
+      },
+      {
+        "children": [
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.label",
+            "kind": "item",
+            "label": "Red",
+            "params": {
+              "label": "red"
+            },
+            "shortcut": "6"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.label",
+            "kind": "item",
+            "label": "Yellow",
+            "params": {
+              "label": "yellow"
+            },
+            "shortcut": "7"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.label",
+            "kind": "item",
+            "label": "Green",
+            "params": {
+              "label": "green"
+            },
+            "shortcut": "8"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.label",
+            "kind": "item",
+            "label": "Blue",
+            "params": {
+              "label": "blue"
+            },
+            "shortcut": "9"
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "photo.label",
+            "kind": "item",
+            "label": "Purple",
+            "params": {
+              "label": "purple"
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "photo.label",
+            "kind": "item",
+            "label": "None",
+            "params": {
+              "label": "none"
+            }
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "checked": true,
+            "enabled": true,
+            "id": "label.applySet",
+            "kind": "item",
+            "label": "Label Set: Colors",
+            "params": {
+              "name": "Colors"
+            }
+          },
+          {
+            "checked": false,
+            "enabled": true,
+            "id": "label.applySet",
+            "kind": "item",
+            "label": "Label Set: Review",
+            "params": {
+              "name": "Review"
+            }
+          },
+          {
+            "enabled": true,
+            "id": "dialog.labelNames",
+            "kind": "item",
+            "label": "Edit Label Names…"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Set Color Label"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "dialog.saveMetadataPreset",
+            "kind": "item",
+            "label": "Save Metadata Preset…"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Metadata Preset"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.autoAdvance",
+        "kind": "item",
+        "label": "Auto Advance"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "photo.rotateLeft",
+        "kind": "item",
+        "label": "Rotate Left",
+        "shortcut": "Cmd+["
+      },
+      {
+        "enabled": true,
+        "id": "photo.rotateRight",
+        "kind": "item",
+        "label": "Rotate Right",
+        "shortcut": "Cmd+]"
+      },
+      {
+        "enabled": true,
+        "id": "photo.flipHorizontal",
+        "kind": "item",
+        "label": "Flip Horizontal"
+      },
+      {
+        "enabled": true,
+        "id": "photo.flipVertical",
+        "kind": "item",
+        "label": "Flip Vertical"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "version.create",
+        "kind": "item",
+        "label": "Create Version",
+        "shortcut": "Cmd+Shift+S"
+      },
+      {
+        "enabled": true,
+        "id": "photo.virtualCopy",
+        "kind": "item",
+        "label": "Create Virtual Copy",
+        "shortcut": "Cmd+'"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "stack.group",
+            "kind": "item",
+            "label": "Group into Stack",
+            "shortcut": "Cmd+G"
+          },
+          {
+            "enabled": false,
+            "id": "stack.ungroup",
+            "kind": "item",
+            "label": "Ungroup Stack",
+            "shortcut": "Cmd+Shift+G"
+          },
+          {
+            "enabled": false,
+            "id": "stack.remove",
+            "kind": "item",
+            "label": "Remove from Stack"
+          },
+          {
+            "enabled": false,
+            "id": "stack.setTop",
+            "kind": "item",
+            "label": "Set as Top of Stack",
+            "shortcut": "Shift+S"
+          },
+          {
+            "enabled": false,
+            "id": "stack.moveUp",
+            "kind": "item",
+            "label": "Move Up in Stack"
+          },
+          {
+            "enabled": false,
+            "id": "stack.moveDown",
+            "kind": "item",
+            "label": "Move Down in Stack"
+          },
+          {
+            "enabled": false,
+            "id": "stack.split",
+            "kind": "item",
+            "label": "Split Stack"
+          },
+          {
+            "enabled": false,
+            "id": "stack.toggle",
+            "kind": "item",
+            "label": "Expand/Collapse Stack",
+            "shortcut": "S"
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": true,
+            "id": "dialog.autoStack",
+            "kind": "item",
+            "label": "Auto-Stack by Capture Time…"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Stack"
+      },
+      {
+        "children": [
+          {
+            "enabled": false,
+            "id": "merge.hdrLast",
+            "kind": "item",
+            "label": "HDR with Last Settings",
+            "shortcut": "Ctrl+Shift+H"
+          },
+          {
+            "enabled": false,
+            "id": "merge.panoramaLast",
+            "kind": "item",
+            "label": "Panorama with Last Settings",
+            "shortcut": "Ctrl+Shift+M"
+          },
+          {
+            "enabled": false,
+            "id": "merge.hdrPanoramaLast",
+            "kind": "item",
+            "label": "HDR Panorama with Last Settings"
+          },
+          {
+            "kind": "separator"
+          },
+          {
+            "enabled": false,
+            "id": "dialog.mergeHdr",
+            "kind": "item",
+            "label": "HDR…",
+            "shortcut": "Ctrl+H"
+          },
+          {
+            "enabled": false,
+            "id": "dialog.mergePanorama",
+            "kind": "item",
+            "label": "Panorama…",
+            "shortcut": "Ctrl+M"
+          },
+          {
+            "enabled": false,
+            "id": "dialog.mergeHdrPanorama",
+            "kind": "item",
+            "label": "HDR Panorama…"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Photo Merge"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "develop.auto",
+        "kind": "item",
+        "label": "Auto Settings",
+        "shortcut": "Shift+A"
+      },
+      {
+        "enabled": true,
+        "id": "develop.treatment",
+        "kind": "item",
+        "label": "Black & White",
+        "shortcut": "V"
+      },
+      {
+        "enabled": true,
+        "id": "develop.reset",
+        "kind": "item",
+        "label": "Reset Edits",
+        "shortcut": "Cmd+Shift+R"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.createPreset",
+        "kind": "item",
+        "label": "Create Preset…",
+        "shortcut": "Cmd+Shift+P"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "photo.saveMetadataToFile",
+        "kind": "item",
+        "label": "Save Metadata to File",
+        "shortcut": "Cmd+S"
+      },
+      {
+        "enabled": true,
+        "id": "photo.readMetadataFromFile",
+        "kind": "item",
+        "label": "Read Metadata from File"
+      },
+      {
+        "enabled": true,
+        "id": "photo.reload",
+        "kind": "item",
+        "label": "Reload from Disk"
+      },
+      {
+        "enabled": false,
+        "id": "app.showInFinder",
+        "kind": "item",
+        "label": "Show in Finder",
+        "shortcut": "Cmd+R"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.rename",
+        "kind": "item",
+        "label": "Rename Photos…",
+        "shortcut": "F2"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.captureTime",
+        "kind": "item",
+        "label": "Edit Capture Time…"
+      },
+      {
+        "enabled": false,
+        "id": "photo.tagFromTracklog",
+        "kind": "item",
+        "label": "Auto-Tag from Tracklog…"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "photo.delete",
+        "kind": "item",
+        "label": "Delete Photo",
+        "shortcut": "Delete"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.allMetadata",
+        "kind": "item",
+        "label": "All Metadata…"
+      },
+      {
+        "enabled": true,
+        "id": "photo.editInExternal",
+        "kind": "item",
+        "label": "Edit in External Editor",
+        "shortcut": "Cmd+Shift+E"
+      },
+      {
+        "enabled": true,
+        "id": "dialog.cull",
+        "kind": "item",
+        "label": "Assisted Culling…"
+      },
+      {
+        "enabled": true,
+        "id": "photo.copyMetadata",
+        "kind": "item",
+        "label": "Copy Metadata"
+      },
+      {
+        "enabled": true,
+        "id": "photo.pasteMetadata",
+        "kind": "item",
+        "label": "Paste Metadata"
+      },
+      {
+        "enabled": true,
+        "id": "develop.matchExposure",
+        "kind": "item",
+        "label": "Match Total Exposures"
+      },
+      {
+        "enabled": true,
+        "id": "library.findSimilar",
+        "kind": "item",
+        "label": "Find Similar Photos"
+      },
+      {
+        "enabled": true,
+        "id": "photo.convertToDng",
+        "kind": "item",
+        "label": "Convert to DNG"
+      },
+      {
+        "enabled": true,
+        "id": "photo.duplicate",
+        "kind": "item",
+        "label": "Duplicate"
+      },
+      {
+        "enabled": true,
+        "id": "photo.addToLibrary",
+        "kind": "item",
+        "label": "Add to My Photos"
+      }
+    ],
+    "label": "Photo"
+  },
+  {
+    "children": [
+      {
+        "checked": true,
+        "enabled": true,
+        "id": "panel.edit",
+        "kind": "item",
+        "label": "Edit",
+        "shortcut": "E"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.crop",
+        "kind": "item",
+        "label": "Crop & Rotate",
+        "shortcut": "C"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.remove",
+        "kind": "item",
+        "label": "Remove",
+        "shortcut": "H"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.masking",
+        "kind": "item",
+        "label": "Masking",
+        "shortcut": "M"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.redeye",
+        "kind": "item",
+        "label": "Red Eye"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.presets",
+        "kind": "item",
+        "label": "Presets",
+        "shortcut": "Shift+P"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.versions",
+        "kind": "item",
+        "label": "Versions",
+        "shortcut": "Shift+V"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.activity",
+        "kind": "item",
+        "label": "History"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.info",
+        "kind": "item",
+        "label": "Info",
+        "shortcut": "I"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.keywords",
+        "kind": "item",
+        "label": "Keywords",
+        "shortcut": "K"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "section.light",
+            "kind": "item",
+            "label": "Light",
+            "shortcut": "Cmd+1"
+          },
+          {
+            "enabled": true,
+            "id": "section.color",
+            "kind": "item",
+            "label": "Color",
+            "shortcut": "Cmd+2"
+          },
+          {
+            "enabled": true,
+            "id": "section.effects",
+            "kind": "item",
+            "label": "Effects",
+            "shortcut": "Cmd+3"
+          },
+          {
+            "enabled": true,
+            "id": "section.detail",
+            "kind": "item",
+            "label": "Detail",
+            "shortcut": "Cmd+4"
+          },
+          {
+            "enabled": true,
+            "id": "section.optics",
+            "kind": "item",
+            "label": "Optics",
+            "shortcut": "Cmd+5"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Edit Sections"
+      },
+      {
+        "children": [
+          {
+            "enabled": true,
+            "id": "tool.guidedUpright",
+            "kind": "item",
+            "label": "Guided Upright",
+            "shortcut": "Shift+G"
+          },
+          {
+            "enabled": true,
+            "id": "tool.brush",
+            "kind": "item",
+            "label": "Brush",
+            "shortcut": "B"
+          },
+          {
+            "enabled": true,
+            "id": "tool.linear",
+            "kind": "item",
+            "label": "Linear Gradient",
+            "shortcut": "L"
+          },
+          {
+            "enabled": true,
+            "id": "tool.radial",
+            "kind": "item",
+            "label": "Radial Gradient",
+            "shortcut": "R"
+          },
+          {
+            "enabled": true,
+            "id": "tool.wbPicker",
+            "kind": "item",
+            "label": "White Balance Selector",
+            "shortcut": "W"
+          },
+          {
+            "enabled": true,
+            "id": "brush.smaller",
+            "kind": "item",
+            "label": "Decrease Brush Size",
+            "shortcut": "["
+          },
+          {
+            "enabled": true,
+            "id": "brush.larger",
+            "kind": "item",
+            "label": "Increase Brush Size",
+            "shortcut": "]"
+          },
+          {
+            "enabled": true,
+            "id": "brush.featherLess",
+            "kind": "item",
+            "label": "Decrease Brush Feather",
+            "shortcut": "Shift+["
+          },
+          {
+            "enabled": true,
+            "id": "brush.featherMore",
+            "kind": "item",
+            "label": "Increase Brush Feather",
+            "shortcut": "Shift+]"
+          }
+        ],
+        "kind": "submenu",
+        "label": "Tools"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "panel.profiles",
+        "kind": "item",
+        "label": "Profile Browser"
+      },
+      {
+        "checked": false,
+        "enabled": true,
+        "id": "view.secondWindow",
+        "kind": "item",
+        "label": "Second Window",
+        "shortcut": "Cmd+F11"
+      }
+    ],
+    "label": "Window"
+  },
+  {
+    "children": [
+      {
+        "enabled": true,
+        "id": "app.discord",
+        "kind": "item",
+        "label": "Join the ArtCraft Discord…"
+      },
+      {
+        "enabled": true,
+        "id": "app.feedback",
+        "kind": "item",
+        "label": "Send Feedback…"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "app.website",
+        "kind": "item",
+        "label": "LightCraft Website"
+      },
+      {
+        "enabled": true,
+        "id": "app.github",
+        "kind": "item",
+        "label": "LightCraft on GitHub"
+      },
+      {
+        "enabled": true,
+        "id": "app.artcraft",
+        "kind": "item",
+        "label": "ArtCraft Website"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "app.whatsNew",
+        "kind": "item",
+        "label": "What's New"
+      },
+      {
+        "enabled": true,
+        "id": "app.shortcuts",
+        "kind": "item",
+        "label": "Keyboard Shortcuts",
+        "shortcut": "Cmd+/"
+      },
+      {
+        "enabled": true,
+        "id": "app.systemInfo",
+        "kind": "item",
+        "label": "System Info…"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "app.about",
+        "kind": "item",
+        "label": "About LightCraft"
+      },
+      {
+        "kind": "separator"
+      },
+      {
+        "enabled": true,
+        "id": "app.help",
+        "kind": "item",
+        "label": "LightCraft Help",
+        "shortcut": "F1"
+      }
+    ],
+    "label": "Help"
+  }
+]
