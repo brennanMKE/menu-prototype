@@ -6,6 +6,8 @@
 //! - [`host`]: what an app implements; [`host::FakeHost`] plays PhotoCraft from fixtures.
 
 pub mod host;
+pub mod in_window;
 pub mod mac_layout;
+pub mod menu_nav;
 pub mod model;
 pub mod shortcut;
