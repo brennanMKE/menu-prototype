@@ -112,6 +112,8 @@ impl ProtoApp {
             syncs: 0,
         };
         app.host.doc_open = args.doc;
+        // The "after" view also fixes PhotoCraft's menu data: rows show their real shortcuts.
+        app.host.real_shortcuts = args.menus != Some(Mode::InWindow) && args.layout == LayoutKind::Mac;
         app.refresh();
         if wanted == Mode::Native {
             app.set_mode(ctx, Mode::Native);
@@ -227,6 +229,11 @@ impl ProtoApp {
             (Mode::Native, LayoutKind::Mac) => "Native menu bar with the macOS layout",
         };
         ui.label(egui::RichText::new(mode).strong());
+        ui.label(if self.host.real_shortcuts {
+            "Menu data: every item shows the shortcut that runs it."
+        } else {
+            "Menu data: as PhotoCraft reports it (Undo, Copy, Paste… show no shortcut)."
+        });
         ui.add_space(6.0);
         let mut doc = self.host.doc_open;
         if ui.checkbox(&mut doc, "Document open").changed() {

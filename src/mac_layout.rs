@@ -298,6 +298,29 @@ mod tests {
         assert!(!file.children.contains(&Node::Standard { item: Standard::CloseWindow }), "⌘W stays File › Close");
     }
 
+    /// PhotoCraft binds ⌘, to Hide Layers (as Photoshop does) but its menu row doesn't show it.
+    /// The layout pass can only see a clash the app reports, so feed it real bindings.
+    #[test]
+    fn with_real_bindings_settings_gives_cmd_comma_to_hide_layers() {
+        use crate::host::{FakeHost, MenuHost};
+        let mut h = FakeHost::photocraft();
+        h.real_shortcuts = true;
+        let l = mac_layout(&h.menu_bar(), &AppInfo { name: "PhotoCraft" });
+        let comma = l.clashes.iter().find(|c| c.shortcut == "Cmd+,").expect("⌘, clash");
+        assert_eq!(comma.command, "layer.hideLayers");
+        assert_eq!(l.bar.find("edit.preferences.general").unwrap().shortcut, None);
+        // And ⌘Z now reaches the native menu.
+        assert_eq!(l.bar.find("edit.undo").unwrap().shortcut.as_deref(), Some("Cmd+Z"));
+        let mut seen = HashMap::new();
+        for it in l.bar.items() {
+            if let Some(sc) = &it.shortcut
+                && let Some(other) = seen.insert(sc.clone(), it.id.clone())
+            {
+                assert_eq!(other, it.id, "{sc} on {other} and {}", it.id);
+            }
+        }
+    }
+
     #[test]
     fn window_and_help_menus_are_marked() {
         let l = photocraft_layout();

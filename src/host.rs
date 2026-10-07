@@ -7,6 +7,10 @@
 //! - Open adds a file to File › Open Recent and Clear Recent empties it (a structural change);
 //! - clicking a check item toggles it;
 //! - File › Exit asks first while a document is open (the app's own quit path).
+//!
+//! PhotoCraft's menu rows don't always show the shortcut that runs the command (Undo shows none,
+//! though ⌘Z undoes). With [`FakeHost::real_shortcuts`] on, items show their real binding from
+//! `fixtures/photocraft-bindings.json`, which is what the macOS layout pass needs to see.
 
 use crate::model::{FlatItem, ItemRole, MenuBar, MenuRole, from_paths};
 use std::collections::BTreeMap;
@@ -66,6 +70,9 @@ pub struct FakeHost {
     pub log: Vec<LogEntry>,
     /// File › Exit was chosen; the window decides how to quit.
     pub quit_requested: bool,
+    /// Show each command's real binding instead of the menu row's shortcut.
+    pub real_shortcuts: bool,
+    bindings: BTreeMap<String, String>,
 }
 
 impl FakeHost {
@@ -79,6 +86,8 @@ impl FakeHost {
             opened: 0,
             log: Vec::new(),
             quit_requested: false,
+            real_shortcuts: false,
+            bindings: BTreeMap::new(),
         }
     }
 
@@ -86,7 +95,9 @@ impl FakeHost {
     pub fn photocraft() -> FakeHost {
         let nodoc = serde_json::from_str(include_str!("../fixtures/photocraft-nodoc.json")).expect("nodoc fixture");
         let doc = serde_json::from_str(include_str!("../fixtures/photocraft-doc.json")).expect("doc fixture");
-        FakeHost::new(nodoc, doc)
+        let mut h = FakeHost::new(nodoc, doc);
+        h.bindings = serde_json::from_str(include_str!("../fixtures/photocraft-bindings.json")).expect("bindings fixture");
+        h
     }
 
     /// Load another app's flat export (same shape as `ui.menu.list`) for both states.
@@ -101,6 +112,11 @@ impl FakeHost {
         for r in &mut rows {
             if let (Some(c), Some(v)) = (r.checked.as_mut(), self.checked.get(&r.id)) {
                 *c = *v;
+            }
+            if self.real_shortcuts
+                && let Some(b) = self.bindings.get(&r.id)
+            {
+                r.shortcut = Some(b.clone());
             }
         }
         // Open Recent: the files, then Clear Recent (which the fixture already has).
@@ -143,7 +159,7 @@ impl MenuHost for FakeHost {
 
     fn state_hash(&self) -> u64 {
         let mut h = DefaultHasher::new();
-        (self.doc_open, &self.checked, &self.recent).hash(&mut h);
+        (self.doc_open, &self.checked, &self.recent, self.real_shortcuts).hash(&mut h);
         h.finish()
     }
 
@@ -178,6 +194,15 @@ impl MenuHost for FakeHost {
 mod tests {
     use super::*;
     use crate::model::{content_hash, structure_key};
+
+    #[test]
+    fn real_shortcuts_show_what_runs_the_command() {
+        let mut h = FakeHost::photocraft();
+        assert_eq!(h.menu_bar().find("edit.undo").unwrap().shortcut, None, "PhotoCraft's Undo row shows no shortcut");
+        h.real_shortcuts = true;
+        assert_eq!(h.menu_bar().find("edit.undo").unwrap().shortcut.as_deref(), Some("Cmd+Z"));
+        assert_eq!(h.menu_bar().find("layer.hideLayers").unwrap().shortcut.as_deref(), Some("Cmd+,"));
+    }
 
     #[test]
     fn closing_the_document_greys_items() {
