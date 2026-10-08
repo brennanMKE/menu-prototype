@@ -1,0 +1,37 @@
+name: MenuShots
+options:
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: ""
+    GENERATE_INFOPLIST_FILE: YES
+    SWIFT_VERSION: "5.0"
+targets:
+  Host:
+    type: application
+    platform: macOS
+    sources: [Host]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: ai.artcraft.menushots.host
+  MenuShotsUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources: [MenuShotsUITests]
+    dependencies:
+      - target: Host
+    settings:
+      base:
+        TEST_TARGET_NAME: Host
+        PRODUCT_BUNDLE_IDENTIFIER: ai.artcraft.menushots.uitests
+schemes:
+  MenuShots:
+    build:
+      targets:
+        Host: all
+        MenuShotsUITests: [test]
+    test:
+      targets: [MenuShotsUITests]
