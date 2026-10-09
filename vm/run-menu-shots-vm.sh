@@ -163,16 +163,43 @@ tart exec "$CLONE" /bin/zsh -lc "sw_vers; rm -rf ~/menushots ~/fixtures $GUEST_R
   && ditto '$R/menushots' ~/menushots && ditto '$R/fixtures' ~/fixtures \
   && xattr -l /Applications/PhotoCraft.app | head -3; echo copied"
 
-log "Running XCUITest in the guest"
 set +e
-tart exec "$CLONE" /bin/zsh -lc "set -o pipefail; cd ~/menushots && xcodebuild -project MenuShots.xcodeproj -scheme MenuShots \
-  -destination 'platform=macOS' -resultBundlePath $GUEST_RESULTS/MenuShots.xcresult test 2>&1 | tee $GUEST_RESULTS/xcodebuild.log"
-test_rc=$?
-tart exec "$CLONE" /bin/zsh -lc "ls ~/Library/Logs/DiagnosticReports 2>/dev/null | tail -5 > $GUEST_RESULTS/guest-crashes.txt; true"
+if [[ -z "${ONLY_TESTS:-}" ]]; then
+  log "Running XCUITest in the guest"
+  tart exec "$CLONE" /bin/zsh -lc "set -o pipefail; cd ~/menushots && xcodebuild -project MenuShots.xcodeproj -scheme MenuShots \
+    -destination 'platform=macOS' -only-testing:MenuShotsUITests/MenuShotsUITests \
+    -resultBundlePath $GUEST_RESULTS/MenuShots.xcresult test 2>&1 | tee $GUEST_RESULTS/xcodebuild.log"
+  test_rc=$?
+else
+  # One test per xcodebuild run (ONLY_TESTS="Class/testA Class/testB"), and after each: is
+  # PhotoCraft still running, any new crash report, AppKit's exception log lines, and the saved
+  # window layout's modification time.
+  tart exec "$CLONE" /bin/zsh -lc "cd ~/menushots && xcodebuild -project MenuShots.xcodeproj -scheme MenuShots \
+    -destination 'platform=macOS' -derivedDataPath ~/dd build-for-testing > $GUEST_RESULTS/build.log 2>&1; tail -1 $GUEST_RESULTS/build.log"
+  test_rc=0
+  for t in ${=ONLY_TESTS}; do
+    name="${t##*/}"
+    log "Running $name in the guest"
+    tart exec "$CLONE" /bin/zsh -lc "set -o pipefail; cd ~/menushots && start=\$(date '+%Y-%m-%d %H:%M:%S') \
+      && xcodebuild -project MenuShots.xcodeproj -scheme MenuShots -destination 'platform=macOS' -derivedDataPath ~/dd \
+         -only-testing:MenuShotsUITests/$t -resultBundlePath $GUEST_RESULTS/$name.xcresult test-without-building \
+         > $GUEST_RESULTS/$name.log 2>&1; rc=\$?; sleep 3
+      { echo \"test rc: \$rc\"
+        echo \"still running: \$(pgrep -x PhotoCraft || echo no)\"
+        echo \"crash reports:\"; ls ~/Library/Logs/DiagnosticReports 2>/dev/null | grep -i photocraft
+        echo \"ui.ron:\"; find ~/Library -name ui.ron -path '*hoto*' -exec stat -f '%Sm %N' {} + 2>/dev/null
+        echo \"AppKit log:\"; log show --style compact --start \"\$start\" --predicate 'process == \"PhotoCraft\" AND (eventMessage CONTAINS[c] \"observer\" OR eventMessage CONTAINS[c] \"exception\")' 2>/dev/null | tail -5
+      } > $GUEST_RESULTS/$name.txt
+      pkill -9 -x PhotoCraft; exit \$rc"
+    (( $? == 0 )) || test_rc=1
+  done
+fi
+tart exec "$CLONE" /bin/zsh -lc "ls ~/Library/Logs/DiagnosticReports 2>/dev/null | tail -5 > $GUEST_RESULTS/guest-crashes.txt; \
+  mkdir -p $GUEST_RESULTS/crashes && cp ~/Library/Logs/DiagnosticReports/PhotoCraft*.ips $GUEST_RESULTS/crashes/ 2>/dev/null; true"
 set -e
 
 mkdir -p "$RESULTS_DIR"
 tart exec "$CLONE" /bin/zsh -lc "tar -C $GUEST_RESULTS -cf - ." | tar -x -C "$RESULTS_DIR"
-grep -E 'error:|Test Case .* (passed|failed)|TEST (SUCCEEDED|FAILED)' "$RESULTS_DIR/xcodebuild.log" | tail -15 || true
+grep -hE 'error:|Test Case .* (passed|failed)|TEST (SUCCEEDED|FAILED)' "$RESULTS_DIR"/*.log 2>/dev/null | tail -20 || true
 log "Results: $RESULTS_DIR"
 exit "$test_rc"
